@@ -374,24 +374,24 @@ body {
 }
 
 .skillst8 .count-bar.color-3 {
-    background-image: -moz-linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
-    background-image: -o-linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
-    background-image: -webkit-linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
-    background-image: linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
+    background-image: -moz-linear-gradient(left, #f2c515 0%, #f4cb35 49.88%, #ffd954 100%);
+    background-image: -o-linear-gradient(left, #f2c515 0%, #f4cb35 49.88%, #ffd954 100%);
+    background-image: -webkit-linear-gradient(left, #f2c515 0%, #f4cb35 49.88%, #ffd954 100%);
+    background-image: linear-gradient(left, #f2c515 0%, #f4cb35 49.88%, #ffd954 100%);
 }
 
 .skillst8 .count-bar.color-4 {
-    background-image: -moz-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
-    background-image: -o-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
-    background-image: -webkit-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
-    background-image: linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
+    background-image: -moz-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #47b8ff 100%);
+    background-image: -o-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #47b8ff 100%);
+    background-image: -webkit-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #47b8ff 100%);
+    background-image: linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #47b8ff 100%);
 }
 
 .skillst8 .count-bar.color-5 {
-    background-image: -moz-linear-gradient(left, #000000 0%, #020202 49.88%, #030303 100%);
-    background-image: -o-linear-gradient(left, #000000 0%, #020202 49.88%, #030303 100%);
-    background-image: -webkit-linear-gradient(left, #000000 0%, #020202 49.88%, #030303 100%);
-    background-image: linear-gradient(left, #000000 0%, #020202 49.88%, #030303 100%);
+    background-image: -moz-linear-gradient(left, #000000 0%, #141313 49.88%, #2d2c2c 100%);
+    background-image: -o-linear-gradient(left, #000000 0%, #141313 49.88%, #2d2c2c 100%);
+    background-image: -webkit-linear-gradient(left, #000000 0%, #141313 49.88%, #2d2c2c 100%);
+    background-image: linear-gradient(left, #000000 0%, #141313 49.88%, #2d2c2c 100%);
 }
 
 .skillst8 .count-bar.color-6 {
@@ -413,6 +413,27 @@ body {
     background-image: -o-linear-gradient(left, #530202 0%, #910505 49.88%, rgba(189, 5, 5, 0.73) 100%);
     background-image: -webkit-linear-gradient(left, #530202 0%, #910505 49.88%, rgba(189, 5, 5, 0.73) 100%);
     background-image: linear-gradient(left, #530202 0%, #910505 49.88%, rgba(189, 5, 5, 0.73) 100%);
+}
+
+.skillst8 .count-bar.color-9 {
+    background-image: -moz-linear-gradient(left, #65D38D 0%, #77dd9b 49.88%, #81eaa5 100%);
+    background-image: -o-linear-gradient(left, #65D38D 0%, #77dd9b 49.88%, #81eaa5 100%);
+    background-image: -webkit-linear-gradient(left, #65D38D 0%, #77dd9b 49.88%, #81eaa5 100%);
+    background-image: linear-gradient(left, #65D38D 0%, #77dd9b 49.88%, #81eaa5 100%);
+}
+
+.skillst8 .count-bar.color-10 {
+    background-image: -moz-linear-gradient(left, #FC7B6B 0%, #f98d81 49.88%, #f99084 100%);
+    background-image: -o-linear-gradient(left, #FC7B6B 0%, #f98d81 49.88%, #f99084 100%);
+    background-image: -webkit-linear-gradient(left, #FC7B6B 0%, #f98d81 49.88%, #f99084 100%);
+    background-image: linear-gradient(left, #FC7B6B 0%, #f98d81 49.88%, #f99084 100%);
+}
+
+.skillst8 .count-bar.color-11 {
+    background-image: -moz-linear-gradient(left, #563D7C 0%, #634b89 49.88%, #67518c 100%);
+    background-image: -o-linear-gradient(left, #563D7C 0%, #634b89 49.88%, #67518c 100%);
+    background-image: -webkit-linear-gradient(left, #563D7C 0%, #634b89 49.88%, #67518c 100%);
+    background-image: linear-gradient(left, #563D7C 0%, #634b89 49.88%, #67518c 100%);
 }
 
 .skillst8 .title {
@@ -514,6 +535,29 @@ body {
     border-top: 4px solid #910505;
 }
 
+.skillst8 .count-bar.color-9 .count {
+    background-color: #65D38D;
+}
+
+.skillst8 .count-bar.color-9 .count span::after {
+    border-top: 4px solid #65D38D;
+}
+
+.skillst8 .count-bar.color-10 .count {
+    background-color: #FC7B6B;
+}
+
+.skillst8 .count-bar.color-10 .count span::after {
+    border-top: 4px solid #FC7B6B;
+}
+
+.skillst8 .count-bar.color-11 .count {
+    background-color: #563D7C;
+}
+
+.skillst8 .count-bar.color-11 .count span::after {
+    border-top: 4px solid #563D7C;
+}
 
 .title {
     font-size: 20px;
