@@ -186,7 +186,10 @@ body {
 
 
 #main-nav {
-    background-color: #CECBCB;
+    background: linear-gradient(to right, #e8e5e5 , #c4c2c2, #e8e5e5); /* Standard syntax */
+    background: -webkit-linear-gradient(left, #e8e5e5 , #c4c2c2, #e8e5e5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e8e5e5, #c4c2c2, #e8e5e5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e8e5e5, #c4c2c2, #e8e5e5); /* For Firefox 3.6 to 15 */
     height: 640px;
     text-align: center;
 }
@@ -263,7 +266,10 @@ body {
 }
 
 #nav-about {
-    background-color: #A7A5A5;
+    background: radial-gradient(#afaeae, #919191, #777676);  
+    background: -webkit-radial-gradient(#afaeae, #919191, #777676);
+    background: -o-radial-gradient(#afaeae, #919191, #777676);
+    background: -moz-radial-gradient(#afaeae, #919191, #777676);    
     padding: 35px 0 65px 0;
 }
 
