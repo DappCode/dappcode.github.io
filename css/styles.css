@@ -145,9 +145,16 @@ table {
 }
 
 body {
+    /* overflow-y: scroll; */
     font-family: 'Roboto Slab', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth; 
+}
+
+section {
+    scroll-behavior: smooth; 
+
 }
 
 .navbar-dark .navbar-brand {
@@ -580,4 +587,36 @@ body {
     font-size: 15px;
     font-weight: 400;
     font-style: italic;
+}
+
+.porto {
+    height: 500px;
+    margin: 50px;
+    padding: 0 20% 0;
+}
+
+.img-porto{
+    border-radius: 2%;
+    max-width: 600px;
+    height: auto;
+    box-shadow: 2px -2px #63636369;
+    opacity: 0.5;
+    transition: all .7s ease-in-out; 
+}
+
+.img-porto:hover {
+    border-radius: 2%;
+    max-width: 600px;
+    height: auto;
+    box-shadow: 7px 7px #63636369;
+    opacity: 1;
+    transition: all .9s ease-in-out; 
+    transform: scale(1.2);
+
+}
+
+.head-portofolio {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    bottom: 50px;
 }
